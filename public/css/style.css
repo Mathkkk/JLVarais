@@ -48,7 +48,7 @@ header nav ul{
 }
 
 
-header nav.menu_deskto ul li{
+header nav.menu_desktop ul li{
     display: inline-block;
     padding: 0 40px;
 }
@@ -329,7 +329,11 @@ footer .line-footer p{
     color: #fff;
 }
 
-/* iphone 11 */
+@media screen and (min-width: 1210px) {
+    .menu-mobile,.btn-abrir-menu{
+        display: none;
+    }
+}
 @media screen and (max-width: 1210px) {
     /* Classes Gerais */
 
