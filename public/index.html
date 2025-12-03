@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="menu.js" defer></script>
     <title>JL Varais</title>
 </head>
 <body>
@@ -36,9 +37,26 @@
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="">
+                <a href="#footer">
                     <button>Contato</button>
                 </a>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                <ul>
+                    <li><a href="#services2">Serviços</a></li>
+                    <li><a href="">Sobre Nós</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu">
+
             </div>
         </div>
     </header>
@@ -61,7 +79,7 @@
                             </ul>
                         </p>
                             <div class="btn-contato2">
-                                <a href="" class="seu-link">
+                                <a href="https://w.app/jlvarais" class="seu-link">
                                     <button>
                                         <i class="bi bi-whatsapp"></i> <span class="texto‑link">Entre em Contato</span>
                                     </button>
@@ -102,7 +120,7 @@
             </section>
         </figure>
         <footer>
-            <div class="interface">
+            <div id="footer" class="interface">
                 <div class="line-footer">
                     <div class="flex">
                         <div class="logo-footer">
@@ -119,6 +137,5 @@
                 </div>
             </div>
     </footer>
-    <script src=""></script>
 </body>
 </html>
